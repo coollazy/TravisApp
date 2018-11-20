@@ -14,7 +14,4 @@ xcode_project: TravisApp.xcodeproj
 xcode_scheme: TravisAppTests
 
 
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPhone 8
-
-## os
-os: osx
+xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
