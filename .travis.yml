@@ -11,12 +11,13 @@ xcode_project: TravisApp.xcodeproj
 # install: make get-deps
 
 ## Testing traget which should be the share scheme.
-xcode_scheme: TravisAppTest
+# xcode_scheme: TravisAppTests
 
+# xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
 
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+osx_image: xcode10
 
 script:
- - xcodebuild -scheme TravisAppTest -sdk iphonesimulator test
+ - xcodebuild -scheme TravisAppTests -sdk iphonesimulator test
 
 osx_image: xcode10
