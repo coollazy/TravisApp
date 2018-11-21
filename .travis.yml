@@ -11,9 +11,9 @@ xcode_project: TravisApp.xcodeproj
 # install: make get-deps
 
 ## Testing traget which should be the share scheme.
-xcode_scheme: TravisApp
+# xcode_scheme: TravisApp
 
-xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+# xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
 
 script:
 #set -o pipefail && xcodebuild -project TravisApp.xcodeproj -scheme TravisApp -destination platform\=iOS\ Simulator,OS\=11.3,name\=iPhone\ X build test | xcpretty
