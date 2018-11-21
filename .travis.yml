@@ -15,9 +15,7 @@ xcode_project: TravisApp.xcodeproj
 
 # xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
 
-osx_image: xcode10
-
 script:
- - xcodebuild -scheme TravisAppTests -sdk iphonesimulator test
+ - xcodebuild -scheme TravisApp -sdk iphonesimulator build test
 
 osx_image: xcode10
