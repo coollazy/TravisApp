@@ -15,10 +15,10 @@ xcode_scheme: TravisApp
 
 xcode_sdk: iphonesimulator
 
-# xcode_destination: platform=iOS Simulator,OS=11.3,name=iPhone X
+xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
 
 # script:
  # set -o pipefail && xcodebuild -project TravisApp.xcodeproj -scheme TravisApp -destination platform\=iOS\ Simulator,OS\=11.3,name\=iPhone\ X build test | xcpretty
  # set -o pipefail && xcodebuild -project TravisApp.xcodeproj -scheme TravisApp -sdk iphonesimulator build test | xcpretty
 
-osx_image: xcode10
+osx_image: xcode10.1
