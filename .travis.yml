@@ -13,7 +13,7 @@ xcode_project: TravisApp.xcodeproj
 ## Testing traget which should be the share scheme.
 xcode_scheme: TravisApp
 
-xcode_sdk: iphonesimulator
+# xcode_sdk: iphonesimulator
 
 xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
 
